@@ -1,0 +1,871 @@
+{
+	"siteVersion": "2.7.5",
+	"undefined": [
+		[
+			{
+				"type": "section",
+				"name": "Quick Build",
+				"entries": [
+					"You can make a Gunner quickly by following these suggestions. First, put your highest ability score in Dexterity, followed by Constitution. Second, choose the folk hero or criminal background.",
+					"Gunner",
+					{
+						"type": "table",
+						"colLabels": [
+							"Level",
+							"Proficiency Bonus",
+							"Features",
+							"Maximum Moxie",
+							"Maximum Total Attachments",
+							"Maximum Attachments per Weapon"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-2 text-right",
+							"col-3 text-center",
+							"col-1 text-right",
+							"col-2 text-right",
+							"col-3 text-right"
+						],
+						"rows": [
+							[
+								"1",
+								"+2",
+								"Moxie",
+								"2",
+								"0",
+								"0"
+							],
+							[
+								"2",
+								"+2",
+								"Bullet Time (×1), Firearm Attachments",
+								"2",
+								"2",
+								"1"
+							],
+							[
+								"3",
+								"+2",
+								"Gunner's Creed, Lucky Skill",
+								"2",
+								"2",
+								"1"
+							],
+							[
+								"4",
+								"+2",
+								"Ability Score Improvement",
+								"2",
+								"2",
+								"1"
+							],
+							[
+								"5",
+								"+3",
+								"Extra Attack",
+								"3",
+								"3",
+								"2"
+							],
+							[
+								"6",
+								"+3",
+								"Quickdraw",
+								"3",
+								"3",
+								"2"
+							],
+							[
+								"7",
+								"+3",
+								"Gunner's Creed Feature",
+								"3",
+								"3",
+								"2"
+							],
+							[
+								"8",
+								"+3",
+								"Ability Score Improvement",
+								"3",
+								"3",
+								"2"
+							],
+							[
+								"9",
+								"+4",
+								"Improved Moxie",
+								"4",
+								"4",
+								"2"
+							],
+							[
+								"10",
+								"+4",
+								"Tough as Nails",
+								"4",
+								"4",
+								"2"
+							],
+							[
+								"11",
+								"+4",
+								"Gunner's Creed Feature",
+								"4",
+								"4",
+								"2"
+							],
+							[
+								"12",
+								"+4",
+								"Ability Score Improvement",
+								"4",
+								"4",
+								"2"
+							],
+							[
+								"13",
+								"+5",
+								"Adrenaline Rush",
+								"5",
+								"5",
+								"3"
+							],
+							[
+								"14",
+								"+5",
+								"Double Tap",
+								"5",
+								"5",
+								"3"
+							],
+							[
+								"15",
+								"+5",
+								"Gunner's Creed Feature",
+								"5",
+								"5",
+								"3"
+							],
+							[
+								"16",
+								"+5",
+								"Ability Score Improvement",
+								"5",
+								"5",
+								"3"
+							],
+							[
+								"17",
+								"+6",
+								"Bullet Time (×2)",
+								"6",
+								"6",
+								"4"
+							],
+							[
+								"18",
+								"+6",
+								"Gunner's Creed Feature",
+								"6",
+								"6",
+								"4"
+							],
+							[
+								"19",
+								"+6",
+								"Ability Score Improvement",
+								"6",
+								"6",
+								"4"
+							],
+							[
+								"20",
+								"+6",
+								"Ultimate Weapon",
+								"6",
+								"6",
+								"4"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "CLASS FEATURES",
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Hit Points",
+						"entries": [
+							"Hit Dice: 1d8 per Gunner level",
+							"Hit Points at 1st Level: 8 + your Constitution mod-ifer",
+							"Hit Points at Higher Levels: 1d8 (or 5) + your Con-stitution modifer per Gunner level afer 1st"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiencies",
+						"entries": [
+							"Armour: Light armour",
+							"Weapons: Simple weapons, Martial Ranged weapons",
+							"Tools: Smith's Tools or Tinker's Tools",
+							"Saving Throws: Dexterity, Charisma",
+							"Skills: Choose two from Acrobatics, Athletics, Intimi-dation, Perception, Persuasion, Sleight of Hand, Stealth, Survival"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Equipment",
+						"entries": [
+							"You start with the following equipment, in addition to the equipment granted by your background:",
+							{
+								"type": "list",
+								"items": [
+									"(a) a Rife or (b) two Pistols",
+									"(a) a Dungeoneer's Pack or (b) an Explorer's Pack",
+									"(a) Smith's Tools or (b) Tinker's Tools",
+									"Leather Armour, a Dagger, and 20 Bullets"
+								]
+							},
+							"If you forgo this starting equipment, as well as the items ofered by your background, you start with 4d4 x 10 GP to buy your equipment."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Multiclassing",
+						"entries": [
+							"Ability Score Minimum. As a multiclass character, you must have at least a Dexterity score of 13 to take a level in this class, or to take a level in another class if you are already a Gunner.",
+							"Proficiencies Gained. If Gunner isn't your initial class, when you take the frst level as a Gunner, you gain profciency with Light armour and Martial Ranged weapons."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Moxie",
+						"entries": [
+							"{@i 1st-Level Gunner Feature}",
+							"You harness your grit and derring-do to take swif action the moment your foes blink. During combat, you can build momentum, represented by a resource called Moxie. You can never have more Moxie than shown on the Gunner table for your level. You can use a Bonus Action to gain 1 Moxie if, on the same turn, you've made an attack against a hostile creature or forced a hostile creature to make a saving throw. Additionally, you gain {@b 1 Moxie} each time you do any of the following:",
+							{
+								"type": "list",
+								"items": [
+									"Score a Critical Hit on an attack roll against a hostile creature of Challenge Rating ½ or higher, or roll a 20 on a saving throw imposed by a hostile creature.",
+									"The frst time each turn that you reduce a hostile creature of Challenge Rating ½ or higher to 0 Hit Points."
+								]
+							},
+							"If you haven't gained or expended any Moxie for {@b 1 minute}, you lose all Moxie. You can expend {@b 1 Moxie} to reload a frearm when you use its last bullet (no action required), or to take the special Reactions described below, which don't use your normal Reac-tion. You can still only take one Reaction, special or otherwise, on each turn.",
+							{
+								"type": "list",
+								"items": [
+									"Point-Blank. When a creature you can see leaves your reach, you can expend 1 Moxie to make an Opportunity Attack against that creature. You can choose to make a ranged weapon attack with a fre-arm you're holding instead of a melee attack.",
+									"Second Chance. When you fail an ability check, you can expend 1 Moxie to reroll it. You must use the new result.",
+									"True Grit. When a creature ends its turn, you can expend 1 or more Moxie to gain 1d6 Temporary Hit Points per Moxie expended."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Bullet Time",
+						"entries": [
+							"{@i 2nd-Level Gunner Feature}",
+							"As a Bonus Action, you can enter a state of height-ened refexes until the start of your next turn. During this time, you have Advantage on attack rolls, ability checks, and Dexterity saving throws, and creatures have Disadvantage on attack rolls made against you. In addition, you expend 1 less Moxie the frst time you take a special Reaction that would require you to expend Moxie.",
+							"Once you've used this Bonus Action, you can't do so again until you fnish a Short or Long Rest. Start-ing at 17th level, you can use it twice before a rest."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Firearm Attachments",
+						"entries": [
+							"{@i 2nd-Level Gunner Feature}",
+							"A marksman is only as good as their weapon, and you've learned to improve yours with special attach-ments. When you fnish a Long Rest, you can apply, remove, or swap any number of attachments from the list at the end of this class on frearms you're holding. The maximum number of attachments you can have in total, as well as the maximum number of attach-ments that a single frearm can hold at a time, are listed on the Gunner table. You can apply the same attachment to diferent frearms, but each one counts against your limit.",
+							"Attachments are divided into fve types: Barrel, Melee, Muzzle, Sights, and Miscellaneous. With the exception of Miscellaneous attachments, you can't have more than one attachment of any type on the same frearm. In addition, some attachments have a level requirement in this class that you must meet in order to apply them to a frearm.",
+							"Other creatures can use frearms bearing attach-ments you've applied using this feature, but those creatures can't beneft from those attachments."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Gunner's Creed",
+						"entries": [
+							"{@i 3rd-Level Gunner Feature}",
+							"You choose a creed to follow, which refects your combat style and approach to marksmanship. Your creed choice grants you features at 3rd level and again at 7th, 11th, 15th, and 18th level."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Lucky Skill",
+						"entries": [
+							"{@i 3rd-Level Gunner Feature}",
+							"Using a distinctive combination of raw skill and dumb luck, you can snatch victory from the jaws of defeat. Choose a skill or tool in which you're profcient; it becomes your Lucky Skill. When you make an ability check using your Lucky Skill, you can use your Second Chance special Reaction without expending any Moxie."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ability Score Improvement",
+						"entries": [
+							"{@i 4th-Level Gunner Feature}",
+							"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Extra Attack",
+						"entries": [
+							"{@i 5th-Level Gunner Feature}",
+							"You can attack twice, instead of once, whenever you take the Attack action on your turn. You can forgo one of these attacks to instead reload a weapon with the Reload property."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Quickdraw",
+						"entries": [
+							"{@i 6th-Level Gunner Feature}",
+							"You want there to be no mistake: you shot frst. When you roll Initiative and you're not surprised, you can use a Reaction to make one weapon attack with a fre-arm. If the attack hits a hostile creature of Challenge Rating ½ or greater, you gain 1 Moxie."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Improved Moxie",
+						"entries": [
+							"{@i 9th-Level Gunner Feature}",
+							"When you would lose all Moxie as a result of not gain-ing or expending any for 1 minute, you instead lose all but 1 Moxie. In addition, your True Grit special Reaction grants you 1d8 Temporary Hit Points per Moxie expended instead of 1d6, and you gain new special Reactions for which you can expend Moxie:",
+							{
+								"type": "list",
+								"items": [
+									"{@b Bullet Clash} When a creature you can see makes a ranged attack while within the normal range of a frearm you're holding, you can expend 1 Moxie to defect the attack. Make a ranged attack with that frearm. If your attack roll is higher than the trigger-ing attack's, that attack automatically misses.",
+									"{@b Close Call} When you make a saving throw, you can expend 1 Moxie to add your Profciency Bonus to your roll. You can do this afer you make the roll, but before the GM determines whether it succeeds or fails.",
+									"{@b Warning Shot} When a creature you can see moves towards you while within the normal range of a frearm you're holding, you can expend 1 Moxie to stop it in its tracks. Make a ranged attack with that frearm, which deliberately misses the creature. The creature must succeed on a Wisdom saving throw with the DC equal to the result of your attack roll or be Frightened of you until the end of your next turn."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "GM Tip:",
+				"entries": [
+					{
+						"type": "inset",
+						"entries": [
+							"Attack Rolls as Saving Throws Instead of a static save DC, a few Gunner features utilise the result of an attack roll as the DC for the saving throw they impose. This represents how the Gunner's accuracy and swiftness in that precise moment affect the situation—a Warning Shot is scarier the closer the bullet comes to a creature. In ad dition, it allows for the save DC to be dynam ically altered depending on the environment or the conditions of the battle—for example, a Gunner would have Disadvantage on the attack roll for Warning Shot if Poisoned, or if a hostile creature was within 5 feet of them, thus potentially lowering the save DC. This need not impact the speed of a turn at a table, even if it adds an extra roll. The GM can roll the saving throw for the creature at the same time as the player rolls the attack roll to determine the save DC. Then, it's just a matter of comparing the two."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Tough as Nails",
+						"entries": [
+							"{@i 10th-Level Gunner Feature}",
+							"The world has chewed you up and spat you out, and you're all the more resilient for it. You gain profciency in Constitution saving throws."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Adrenaline Rush",
+						"entries": [
+							"{@i 13th-Level Gunner Feature}",
+							"When the going gets tough... you get even tougher. When you take damage that puts you at or below half of your Hit Point maximum, you can use your Reac-tion to immediately gain an amount of Moxie equal to your maximum Moxie, which can put you over your maximum amount. In addition, your Bullet Time fea-ture immediately activates without expending its use, even if you have no uses of it lef.",
+							"Once you've used this feature, you can't use it again until you fnish a Long Rest."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Double Tap",
+						"entries": [
+							"{@i 14th-Level Gunner Feature}",
+							"You have the fastest hands in the multi-verse. You can take an additional Bonus Action on each of your turns. This Bonus Action can't be used to make an attack."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ultimate Weapon",
+						"entries": [
+							"{@i 20th-Level Gunner Feature}",
+							"You've reached the apex of weapon modifcation. Choose one of the following special attachment options, which doesn't count against the maximum number of attachments you can have or the maximum number of attachments that a weapon can hold. You can only have one instance of the chosen attachment, and you can move it between diferent frearms when you fnish a Long Rest, but you can't choose to replace it with a diferent special attachment from this feature.",
+							{
+								"type": "list",
+								"items": [
+									"{@b Arcano-Intelligent Targeting (Miscellaneous):} When you make a ranged attack using the frearm with this attachment against a creature you can see, you can choose not to roll, but instead treat it as if you'd rolled a 20 on the attack roll. Once you use this attachment, you can't do it again until the attach-ment recalibrates over the course of your next Long Rest.",
+									"{@b Elemental Converter (Miscellaneous):} When you make a ranged weapon attack using the frearm with this attachment, you can choose to change its damage type to Acid, Cold, Fire, Lightning, or Thunder. As a Reaction when you take damage of one of those types, you can choose to gain Resistance to the triggering damage type until the end of the turn. Once you do, the next attack you make using the frearm with this attachment before the end of your next turn deals an extra 2d6 damage of the triggering type on a hit."
+								]
+							},
+							{
+								"type": "list",
+								"items": [
+									"{@b Megamag (Miscellaneous):} This attachment pulls bullets from an extradimensional space, removing the Reload property from the frearm to which it's applied and causing it to require no ammunition. You can still reload the frearm manually to load special ammunition into it. This attachment can hold six pieces of special ammunition inside, and you can choose to use one when you make a ranged attack with the frearm.",
+									"{@b Omniscope (Sights):} Attacking at long range doesn't impose Disadvantage on ranged weapon attack rolls made using the frearm with this attach-ment. The attachment also functions as a Spyglass. As a Bonus Action while holding the frearm with this attachment, you can activate the scope, choos-ing either Truesight or X-Ray mode. If you choose Truesight, you have Truesight out to 30 feet while looking through the scope. If you choose X-Ray, you can see into and through solid matter out to 30 feet while looking through the scope. Either mode lasts until you activate the other mode."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Gunner Creeds",
+				"entries": [
+					"Gunners are as varied as the frearms they proudly brandish, but some fnd common ground under the same creed—a discipline that shapes not only their combat style, but also the artistry of their gunslinging. Creeds aren't rigid codes of honour, and they don't dictate a Gunner's morals or ambitions, but rather the way in which they defend them. One might charge recklessly into battle to bring righteous fury upon a nefarious cult, while another opts to infltrate the cult's headquarters to assassinate its leader under the cover of night. At the end of the day, whichever creed a Gunner decides to follow, it's usually bad news for any unfortunate fools who fnd themselves staring down the barrel of a loaded frearm.",
+					{
+						"type": "entries",
+						"name": "Deadeye's Creed",
+						"entries": [
+							"As patient as they are lethal, Deadeyes are master sharpshooters, prizing accuracy and efciency above all else. With eagle eyes, they scan the battlefeld in the span of a heartbeat, accounting for factors such as wind velocity, projectile drop, and target trajectory as instinctively as they breathe. Then, they take their frst shot. Seldom do they need a second.",
+							"What frst led you down the path of a Deadeye? Have you always had the patience of a saint and an uncanny knack for complex mental physics? Or is each of your bullets guided by pure chance, with the multiverse conspiring to bury them in your foes through a series of unlikely coincidences, even in the face of your ineptitude? Whatever the case, one thing is certain: you never miss."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Stakeout",
+						"entries": [
+							"3rd-Level Deadeye's Creed Feature",
+							"No foe can escape your notice... unfortunately for them, the opposite isn't true. You gain profciency in the Perception and Stealth skills. Choose one of these skills to become an extra Lucky Skill, as per your Lucky Skill feature."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Deadeye's Flair",
+						"entries": [
+							"{@i 3rd-Level Deadeye's Creed Feature}",
+							"Each of your shots is perfectly calculated, with pon-derous rigor and endless patience. You learn unique ways to gain and spend Moxie:",
+							{
+								"type": "list",
+								"items": [
+									"Careful Aim. At the end of each of your turns, you gain 1 Moxie if you hit a hostile creature of Chal-lenge Rating ½ or higher with a ranged weapon attack using a frearm and didn't spend any of your movement that turn.",
+									"Calculated Ricochet. When you miss with a ranged weapon attack using a frearm, you can expend 1 Moxie as a special Reaction to reroll the attack roll against a diferent target within range of the weapon and 30 feet of the original target."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Scoping Mechanism",
+						"entries": [
+							"{@i 7th-Level Deadeye's Creed Feature}",
+							"The logic is simple: aim better, kill better. When you apply attachments at the end of a Long Rest, you can apply an additional Sight attachment to one of your frearms, even if the frearm already has a diferent Sight attachment. This extra attachment doesn't count against your total number of attachments or the maximum attachments a frearm can hold.",
+							"In addition, the number you need to roll on the d20 to score a Critical Hit with a frearm is reduced by 1 for each Sight attachment applied to it."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Marksman's Insight",
+						"entries": [
+							"{@i 7th-Level Deadeye's Creed Feature}",
+							"You've learned to carefully study your marks for chinks in their armour. You can use a Bonus Action to examine a creature through a Sights attachment on a frearm you're holding, making an Investigation (Intelligence) check with the DC equal to 8 + half of the creature's level or Challenge Rating. On a success, choose a condition or damage type. The GM tells you whether the creature has Vulnerability, Resistance, or Immunity to the chosen condition or damage type. Success or fail, you can't use this feature again on the same creature for 24 hours."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "One Shot, One Kill",
+						"entries": [
+							"{@i 11th-Level Deadeye's Creed Feature}",
+							"You can forgo additional shots to gamble it all on a single bullet—and the more you put on the line, the more you stand to win. Once per turn, when you re-load a frearm, you can choose to load it with a single bullet instead of its maximum amount. If you do, the next attack made with that frearm before it's reloaded again deals extra damage depending on the frearm's Reload value, as detailed in the table below."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Damage per Reload Value",
+						"entries": [
+							{
+								"type": "table",
+								"colLabels": [
+									"Reload Value",
+									"Extra Damage"
+								],
+								"colStyles": [
+									"col-6 text-center",
+									"col-6 text-center"
+								],
+								"rows": [
+									[
+										"Reload (1)",
+										"None"
+									],
+									[
+										"Reload (2)",
+										"1d6"
+									],
+									[
+										"Reload (3)",
+										"2d6"
+									],
+									[
+										"Reload (4)",
+										"3d6"
+									],
+									[
+										"Reload (5)",
+										"4d6"
+									],
+									[
+										"Reload (6)",
+										"5d6"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Steady Breath",
+						"entries": [
+							"{@i 15th-Level Deadeye's Creed Feature}",
+							"By drawing in your breath, you steady both body and mind. As a Bonus Action, you can choose to start holding your breath, and you must concentrate on this as if concentrating on a spell. If you maintain Con-centration on this efect until your next turn, you have Advantage on the frst attack roll you make that turn, afer which your Concentration ends.",
+							"Additionally, when you make an Intelligence, Wis-dom, or Charisma saving throw while concentrating on this feature, you can choose to stop concentrating on it to use your Close Call special Reaction without"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Re-Ricochet",
+						"entries": [
+							"{@i 18th-Level Deadeye's Creed Feature}",
+							"You can fsh for the perfect hit with clever, well-calculat-ed plans... so what if they happen to be extremely con-voluted? You can use your Calculated Ricochet special Reaction when the attack would hit its target, causing it to miss instead so you can reroll the attack roll.",
+							"In addition, afer you use your Calculated Rico-chet special Reaction to reroll an attack roll, you can expend 1 Moxie to reroll the attack roll again, with Advantage, against a diferent creature within 30 feet of the second target, which can be the original one."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Slugger's Creed",
+				"entries": [
+					"What's even more painful than a bullet to the gut? A point-blank bullet to the gut, of course. Sluggers ex-change the relative safety of distance and cover for the exhilarating chaos of close-quarters combat, leveraging their superior agility to run circles around their foes and bring them down with a combination of blade and bullet. Detractors accuse these Gunners of simply covering for their poor aim, but curiously enough, they rarely voice this opinion within earshot of one.",
+					"There are many reasons why you may have chosen to be a Slugger. Perhaps you're a thrill seeker who thrives on high-risk, high-reward tactics. You could be a maverick inventor who sought to merge frearms with melee weapons against the recommendations of your colleagues and in fagrant violation of local safety ordinances. Or maybe you do have bad aim—no one needs to know! Whichever the case, you're among the rare few Gunners whose foes desperately wish would keep their distance.",
+					{
+						"type": "entries",
+						"name": "Close-Quarters Expert",
+						"entries": [
+							"{@i 3rd-Level Slugger's Creed Feature}",
+							"Any enemy that thinks you won't be as dangerous up close as you are from a distance is in for a very painful realisation. You gain profciency in the Acrobatics skill, and it becomes an extra Lucky Skill for you, as per your Lucky Skill class feature. In addition, you gain profciency with Martial weapons that lack the Two-Handed property."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Slugger's Flair",
+						"entries": [
+							"{@i 3rd-Level Slugger's Creed Feature}",
+							"Alternating between gunshots and melee attacks, you unleash devastating combos. You learn unique ways to gain and spend Moxie:",
+							{
+								"type": "list",
+								"items": [
+									"{@b Blade & Bullet.} The first time you hit with a ranged weapon attack using a firearm and a melee weapon attack on the same turn, you gain 1 Moxie .",
+									"{@b Tacticool Reload.} Immediately after you reload a firearm, you can expend 1 Moxie as a special Reaction to make a melee weapon attack."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lead to the Face",
+								"entries": [
+									"{@i 7th-Level Slugger's Creed Feature}",
+									"You love the smell of powder burn in the morning. When you apply attachments at the end of a Long Rest, you can apply the Sawed-Off Barrel attachment to one of your firearms, even if the firearm already has a different Barrel attachment. This extra attachment doesn't count against your total number of attachments or the maximum attachments a firearm can hold."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Bullet Ballet",
+						"entries": [
+							"{@i 7th-Level Slugger's Creed Feature}",
+							"Quick feet and quicker fngers are a deadly combina-tion on the battlefeld. When you gain or expend 1 or more Moxie, you can move 5 feet without provoking Opportunity Attacks. If the Moxie is expended as part of a Reaction, you can choose to move immediately before or afer you take that Reaction."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Concealed Parry",
+						"entries": [
+							"{@i 11th-Level Slugger's Creed Feature}",
+							"Your heightened refexes allow you to defect attacks using your frearms. As a Reaction when a creature hits you with a melee attack while you're holding a frearm, you gain a +2 bonus to AC against the trig-gering attack, potentially causing it to miss."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Bulletstorm",
+						"entries": [
+							"{@i 15th-Level Slugger's Creed Feature}",
+							"As an action, you can weave across the battlefeld in a whirlwind of steel and gunpowder. Until the end of your turn, you can make a weapon attack against a creature (no action required) the frst time you move within 5 feet of it. Once you've used this feature, you can't use it again until you fnish a Long Rest."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Counter-Strike",
+						"entries": [
+							"{@i 18th-Level Slugger's Creed Feature}",
+							"Each missed opportunity for an opponent is a new op-portunity for you. The bonus to AC from your Con-cealed Parry feature increases to +3. If the triggering attack misses, you can make a weapon attack against the attacking creature as part of the same Reaction."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Firearm Attachments",
+				"entries": [
+					"The Gunner can apply several diferent attachments to their frearms, altering their properties, damage, or function. Here is a list of the available frearm attach-ments, categorized into fve types: Barrel, Melee, Muzzle, Sights, and Miscellaneous.",
+					"In addition, some attachments gain upgraded efects at certain Gunner class levels, while others re-quire the Gunner to be at least a certain level to apply them in the frst place.",
+					{
+						"type": "entries",
+						"name": "Barrel",
+						"entries": [
+							{
+								"type": "list",
+								"items": [
+									"{@b Extended Barrel.} This barrel has been elongated to increase accuracy and range. The normal range of a frearm with this attachment increases by 20 feet, and its long range increases by 60 feet. When you reach 11th level in the Gunner class, the normal range instead increases by 40 feet, and the long range by 120 feet.",
+									"{@b Sawed-Of Barrel.} This barrel has been cut short to facilitate close-quarters combat. Being within 5 feet of a hostile creature doesn't impose Disad-vantage on ranged attack rolls using a frearm. The normal and long ranges of the frearm are both halved (calculated afer other attachments that afect range).",
+									"{@b Subaquatic Barrel.} This barrel has been improved to fre underwater. Attacks made using a frearm with this attachment ignore the penalties of under-water combat.",
+									"{@b Wide Barrel (9th Level).} This wide barrel allows for larger bullets with more stopping power. When you hit a Large or smaller creature with a ranged attack using a frearm with this attachment, the creature is pushed 5 feet directly away from you. If you hit it a second time on the same turn, you can choose to push it another 5 feet or knock it Prone. If you roll a 1 on an attack roll made using the frearm, you're pushed 5 feet directly away from your target.When you reach 15th level in the Gunner class, this efect applies to Huge or smaller creatures.",
+									"{@b High-Velocity Barrel (11th Level).} This magitech barrel accelerates projectiles to near impossible speeds. Ranged attacks made using a frearm with this attachment pass through the frst creature or ob-ject they hit, as long as it's Medium or smaller and less than 2 feet thick. If there's another creature or object no more than 5 feet directly behind the orig-inal one, you can target it with the attack as well, making a new attack roll. This attack roll ignores any cover provided by the frst creature or object.When you reach 15th level in the Gunner class, ranged attacks made using a frearm with this at-tachment pass through magical barriers such as those created by the Tiny Hut, Wall of Force, and Forcecage spells, and ignore the efects of the Shield spell.",
+									"{@b Double Barrel (15th Level).} This extra barrel makes a frearm twice as dangerous. Attacks made using a frearm with this attachment deal an extra die of damage on a hit. The Reload value of the frearm is halved (calculated afer other attachments that afect Reload). This attachment can't be applied to frearms with Reload (1)."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Sights",
+						"entries": [
+							{
+								"type": "list",
+								"items": [
+									"{@b Adamantine Sights.} Being Prone or targetting a Prone creature more than 5 feet away doesn't impose Disadvantage on ranged attack rolls made using a frearm with this attachment.",
+									"{@b Arcanovision Sights (9th Level).} While looking through this attachment, you see an aura around visible creatures or objects within 30 feet of you that bear magic, as per the Detect Magic spell.When you reach 15th level in the Gunner class, you can't have Disadvantage on ranged attack rolls using the frearm against creatures or objects bearing the aura.",
+									"{@b Auto-Targeting Sights (9th Level).} When you make a ranged attack roll using a frearm with this attachment against a creature you can see, you can choose not to roll, but instead treat it as if you'd rolled a 10 on the d20. Once you use this attach-ment, you can't do it again until you use an action to reset the mechanism.",
+									"{@b Night Vision Sights.} You have Darkvision out to 60 feet while looking through this attachment.When you reach 15th level in the Gunner class, you can also see normally in magical Darkness out to 60 feet while looking through this attachment.",
+									"{@b Telescopic Sights.} Attacking at long range doesn't impose Disadvantage on ranged weapon attack rolls made using a frearm with this attachment. The attachment also functions as a Spyglass.",
+									"{@b Thermal Sights (9th Level).} While looking through this attachment, you have Advantage on Wisdom (Perception) checks made to detect crea-tures that produce body heat, and you can always see those creatures regardless of light conditions or obscurement, as long as they're not behind Total Cover. Some Constructs, Elementals, and Undead exist at ambient temperature and can't be seen with this property (GM's discretion)."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "MELEE",
+						"entries": [
+							{
+								"type": "list",
+								"items": [
+									"{@b Bayonet.} This knife, spike, or similar implement allows you to use your firearm as a melee weapon. A firearm with this attachment is also considered a Simple Melee weapon. It deals {@b 1d4} Piercing damage on a hit, and you can use your Dexterity modifier instead of Strength for the attack and damage rolls of melee attacks made with it.The damage of this attachment increases to {@i 1d6} when you reach 5th level in the Gunner class, and again to {@b 1d8} when you reach 11th level in the Gunner class.",
+									"{@b Taser.} Taser. This metal rod crackles with electricity. A firearm with this attachment is also considered a Simple Melee weapon. It deals 1 Lightning damage on a hit, and you can use your Dexterity modifier instead of Strength for the attack and damage rolls of melee attacks made with it. If a creature takes damage from this attachment, it can't take Reactions until the start of its next turn.  The damage of this attachment increases to {@b 1d4} when you reach 9th level in the Gunner class, and again to a {@b 1d6} when you reach 15th level in the Gunner class.",
+									"{@b Grapplehook (5th Level).} This sharp hook is connected to the firearm by a short length of chain. A firearm with this attachment is also considered a Simple Melee weapon. It deals {@b 1d4} Piercing damage on a hit, and you can use your Dexterity modifier instead of Strength for the attack and damage rolls of melee attacks made with it. A Medium or smaller creature hit with a melee attack using the firearm with this attachment has the hook embedded in it, and can't move farther than {@b 10 feet} awayfrom you until it or a creature within reach of it uses an action to remove the hook, until you move father than {@b 10 feet} from it, or until you make a melee attack with the firearm against a different creature. You can use a Bonus Action to reel a creature with a hook embedded in it {@b 5 feet} towards you. When you reach 11th level in the Gunner class, the hook can embed itself in Large or smaller creatures.",
+									"{@b Needle (5th Level).} This attachment consists of a hollow needle filled with venomous fluid. A firearm with this attachment is also considered a Simple Melee weapon. It deals 1 Piercing damage on a hit, and you can use your Dexterity modifier instead of Strength for the attack and damage rolls of melee attacks made with it. When you hit a creature with a melee attack using it, the creature becomes {@b Poisoned} until the end of its next turn. After this effect triggers, it can't trigger again until you use an action to reset the mechanism.This attachment deals an extra {@b 1d4} Poison damage on a hit with the melee weapon when you reach 11th level in the Gunner class.",
+									"{@b Buckler (9th Level).} This attachment consists of a small shield mounted to the barrel. You gain a +1 bonus to AC while holding a firearm with this attachment.",
+									"{@b Weighted Butt (9th Level).} This attachment has a dangerous heft to it. A firearm with this attachment is also considered a Simple Melee weapon. It deals {@b 1d4} Bludgeoning damage on a hit, and you can use your Dexterity modifier instead of Strength for the attack and damage rolls of melee attacks made with it. When you roll a {@b 4} on the damage die against a creature, the creature is dazed, gaining {@b Disadvantage} on the next attack roll it makes before the end of its next turn. When you reach 15th level in the Gunner class, this damage increases to {@b 1d6}, and you daze a creature on a roll of {@b 5 or higher}."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "MUZZLE",
+						"entries": [
+							{
+								"type": "list",
+								"items": [
+									"{@b Scattershot.} This attachment breaks bullets into a shower of shrapnel as they exit the barrel. A firearm with this attachment loses its normal and long rang- es, and can't be used to make ranged attack rolls against creatures. Instead, you can use an action to fire shrapnel from it in a {@b 15-foot Cone}, making a ranged attack roll. Each creature in the area must succeed on a {@b Dexterity saving throw} with the {@b DC} equal to the result of your attack roll or take the damage of the attack. Magical ammunition can't be fired by a firearm with this attachment, and mun- dane bullets fired from it are destroyed.When you reach 11th level in the Gunner class, the area increases to a {@b 20-foot Cone} .",
+									"{@b Suppressor.} A firearm with this attachment loses the Loud property.When you reach 11th level in the Gunner class, making an attack with a firearm using this attach- ment while hiding doesn't reveal you to creatures outside of the firearm's normal range.",
+									"{@b Muzzle Flash (5th Level).} When you make the first ranged weapon attack using a firearm with this attachment after reloading it, the muzzle produces a blinding flash. Each other creature within {@b 5 feet} of you gains {@b Disadvantage} on the next attack roll it makes before the end of its next turn. Creatures with Immunity to the Blinded condition ignore this effect.",
+									"{@b Red-Hot Muzzle (5th Level).} This muzzle is built with a deliberate fault that causes it to overheat. When you make the first ranged weapon attack using a firearm with this attachment after it's reloaded, the muzzle becomes incandescent until the firearm is reloaded again or until you hit with a melee attack using the firearm. A melee attack made using a firearm with an incandescent muzzle deals an extra {@b 1d6} Fire damage on a hit. When you reach 11th level in the Gunner class, this damage increases to {@b 1d8} .",
+									"{@b Concentration Breaker (9th Level).} This muzzle imbues bullets that pass through it with anti-magic properties. Creatures have {@b Disadvantage} on Con- stitution saving throws made to maintain Concen- tration as a result of taking damage from a ranged weapon attack using a firearm with this attachment.",
+									"{@b Force Pulse (9th Level).} When you make the first ranged weapon attack using a firearm with this attachment after it's reloaded, the muzzle produces a pulse of repelling force. Each other Medium or smaller creature within {@b 5 feet} of you is pushed {@b 5 feet} directly away from you.When you reach 11th level in the Gunner class, this effect applies to Large or smaller creatures. When you reach 15th level in the Gunner class, this effect applies to Huge or smaller creatures."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "MISCELLANEOUS",
+						"entries": [
+							{
+								"type": "list",
+								"items": [
+									"{@b Automatic Reloader.} The first time that a fire- arm with this attachment needs to be reloaded, the attachment reloads it automatically (no action required). After this attachment triggers, it can't trigger again until you spend an action resetting the mechanism.",
+									"{@b Decorative Etchings.} While visibly holding a firearm with this attachment, you have {@b Advantage} on Charisma (Intimidation) and Charisma (Persua- sion) checks.",
+									"{@b Extended Capacity.} A firearm with this attach- ment has its Reload value increased by {@b 1}, to a maximum of 6. The Reload value increases by an additional {@b 1} when you reach 5th, 11th, and 15th levels in the Gunner class.",
+									"{@b Smart Grip.} You can't be disarmed of or otherwise forced to drop a firearm with this attachment. When you reach 11th level in the Gunner class, you can't have Disadvantage on melee attack rolls made using a firearm with this attachment.",
+									"{@b Arcane Stabiliser (5th Level).} A firearm with this attachment is considered magical for the purposes of overcoming resistance and immunity to nonmag- ical attacks and damage. This also applies to attacks made using Melee attachments. When you reach 11th Level in the Gunner class, the firearm with this attachment gains a {@b +1 bonus} to attack and damage rolls made with it. If the firearm already has a bonus to attack and damage rolls, you use the highest of the two. When you reach 15th level in the Gunner class, this bonus increases to {@b +2}",
+									"{@b Bipod (9th Level).} As an action or Bonus Action while standing on the ground and holding a firearm with this attachment, you can unfold and mount a bipod to aid in your aiming. While you remain in the same space with the bipod unfolded, you have {@b Advantage} on the first ranged attack roll you make using the firearm on each of your turns. You can fold the bipod back in using an action or Bonus Action. If you move or are moved without first folding the bipod, you have Disadvantage on attack rolls made using the firearm until the bipod is folded.",
+									"{@b {@i Heat Sink (15th Level).}} This attachment allows you to overheat your firearm in order to push it past its limits. When you attack using a firearm with this attachment as part of the Attack action, you can choose to make an additional attack as part of the same action, taking {@b 3d6} Fire damage as the weapon overheats. If you take any of this Fire damage, you have {@b Disadvantage} on the attack roll. After you use this effect, you can't do so again until you use an action to vent the excess heat."
+								]
+							},
+							"-"
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "GM Tip: Blackpowder vs MaGiTech",
+				"entries": [
+					{
+						"type": "inset",
+						"entries": [
+							"Heliana's Guide first introduced firearms as magitech weapons—deadly combinations of magic and technology, expensive but worth every Copper Piece. In order to make more options available for Gunners without gating them behind a high price point, Zaman's Guide introduces blackpowder firearms. These versions work similarly to the ones in Heliana's Guide, with some slight balancing tweaks that allow them to exist at a lower cost, on par with other weapons in the game.The magitech firearms in Heliana's Guide are fully compatible with this class, but be aware that if your player characters have money to spend on them, they can represent a considerable increase in power. Blackpowder firearms are recommended for use with the Gunner class."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "NEW WEAPONS - BLACKPOWDER FIREARMS",
+				"entries": [
+					"The following table presents five options for black- powder firearms—new weapons introduced in {@i Zam- an's Guide}. Additional details for each weapon can be found in their respective sections.",
+					{
+						"type": "table",
+						"colLabels": [
+							"Weapon",
+							"Damage",
+							"Properties",
+							"Item Value",
+							"Weight",
+							"Manufacturing",
+							"Material Cost",
+							"Tool",
+							"DC",
+							"Time"
+						],
+						"colStyles": [
+							"col-0 text-center",
+							"col-1 text-center",
+							"col-1 text-center",
+							"col-5",
+							"col-1 text-center",
+							"col-1 text-center",
+							"col-1 text-center",
+							"col-0 text-center",
+							"col-0 text-center",
+							"col-0 text-right",
+							"col-1 text-center"
+						],
+						"rows": [
+							[
+								"Blunderbuss",
+								"3d4 Piercing",
+								"Ammunition (range 20/60), Loud (1000), Reload (1), Two-Handed",
+								"50 GP",
+								"5 lb.",
+								"Smith, tinker",
+								"15 GP",
+								"Smith",
+								"17",
+								"18 hrs"
+							],
+							[
+								"Musket",
+								"1d12 Piercing",
+								"Ammunition (range 80/240), Loud (1000), Reload (1), Two-Handed",
+								"30 GP",
+								"10 lb.",
+								"Smith, tinker",
+								"10 GP",
+								"Smith",
+								"17",
+								"18 hrs"
+							],
+							[
+								"Pistol",
+								"1d6 Piercing",
+								"Ammunition (range 40/120), Light (400), Reload (2)",
+								"15 GP",
+								"2 lb.",
+								"Smith, tinker",
+								"5 GP",
+								"Smith",
+								"17",
+								"10 hrs"
+							],
+							[
+								"Revolver",
+								"1d8 Piercing",
+								"Ammunition (range 60/240), Loud (500), Reload (6)",
+								"50 GP",
+								"2 lb.",
+								"Smith, tinker",
+								"15 GP",
+								"Smith",
+								"17",
+								"18 hrs"
+							],
+							[
+								"Rifle",
+								"1d10 Piercing",
+								"Ammunition (range 120/480), Loud (1000), Reload (2), Two-Handed",
+								"8 GP",
+								"5 lb.",
+								"Smith, tinker",
+								"15 GP",
+								"Smith",
+								"17",
+								"24 hrs"
+							]
+						]
+					},
+					{
+						"type": "entries",
+						"name": "BLUNDERBUSS",
+						"entries": [
+							"Blunderbusses are firearms boasting a large barrel flared at the muzzle, which fire shot or similar projectiles in a narrow spread at short distances. They have the Ammunition (range 20/60), Loud (1,000), Reload (1), and Two-Handed proper - ties, and deal 3d4 Piercing damage on a hit."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "MUSKET",
+						"entries": [
+							"Muskets are muzzle-loaded firearms with long barrels, traditionally reloaded after each shot. They have the Ammunition (range 80/240), Light, Loud (1,000), Reload (1), and Two-Hand - ed properties, and deal 1d12 Piercing damage on a hit."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "PISTOL",
+						"entries": [
+							"Pistols are one-handed firearms, whose small size and light weight make them especially easy to handle. They have the Ammunition (range 40/120), Loud (500), Reload (2), and Light properties, and deal 1d6 Piercing damage on a hit."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "REVOLVER",
+						"entries": [
+							"Revolvers are one-handed firearms with a ro- tating cylinder that contains several chambers, allowing for greater ammunition capacity. They have the Ammunition (range 60/240), Loud (500), and Reload (6) properties, and deal {@b 1d8} Piercing damage on a hit."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "RIFLE",
+						"entries": [
+							"Rifles are long-barreled firearms boasting superior accuracy due to the grooves on the inside of their barrels, which confer spin to fired projectiles. They have the Ammunition (range 120/480), Loud (1,000), Reload (2), and Two-Handed properties, and deal {@b 1d10} Piercing damage on a hit."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "NEW PROPERTIES",
+				"entries": [
+					"{@i Zaman's Guide} introduces two new weapon proper- ties: Loud and Reload.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Loud (X)",
+										"entries": [
+											"The sound of the weapon (typically a firearm) being used to make a ranged attack is audible to creatures within a number of feet as specified by the number in parentheses after the Loud property. This range is doubled in echoey locations, such as cave systems, and where sound travels faster, such as underwater ."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Reload (X)",
+										"entries": [
+											"A number of pieces of ammunition, specified by the number in parentheses after the Reload property, can be loaded into this weapon. Making a ranged attack with the weapon uses one piece of ammunition from the amount within. When the weapon has no ammunition left, a creature must use an action to reload it before it can be used to make ranged attacks again. A creature can reload a weapon before it runs out of ammunition, replacing or adding to the ammunition already inside, up to the maximum amount the weapon can hold.",
+											"A creature can use magical or specialised ammu- nition that has been loaded into the weapon for any ranged attack made with the weapon (creature's choice for each attack)."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}
